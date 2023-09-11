@@ -28,6 +28,10 @@ body {
   margin-bottom: 20px;
 }
 
+#fecha {
+  font-size: 21px;
+}
+
 .fecha img {
   width: 220px;
   align-self: center;
@@ -78,7 +82,8 @@ body {
 }
 
 footer {
-  margin-top: 50px;
+  margin-top: 60px;
+  margin-bottom: 10px;
   text-align: center;
   font-size: 18px;
 }
