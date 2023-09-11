@@ -1,3 +1,7 @@
+body {
+  min-height: 100vh;
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -5,7 +9,7 @@
   padding-bottom: 20px;
 }
 
-.header img {
+.header img, footer img {
   width: 80px;
   border-radius: 100%;
 }
@@ -21,6 +25,7 @@
 .fecha {
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .fecha img {
@@ -70,5 +75,15 @@
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0;
+}
+
+footer {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 18px;
+}
+
+footer p span a{
+  text-decoration: none;
 }
 
